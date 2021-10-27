@@ -1,6 +1,14 @@
-<div class="container text-center mx-auto">
-  <h1 class="text-[50px] px-6 font-extrabold text-red-500 tracking-tight">Headline</h1>
-  <div class="fs-5 text-muted">
-    <p class="mt-4 px-6 text-xl text-gray-500">lorem, ipsum dolor sit amet consectetur adipisicing elit. At culpa, placeat delectus ut quidem iste minima numquam quisquam autem nemo dolorum consectetur adipisci blanditiis distinctio possimus perferendis animi, eum voluptatum.</p>
-  </div>
+<script src="https://cdn-tailwindcss.vercel.app?plugins=typography"></script>
+
+<div class="container text-center mx-auto selection:bg-[salmon]/50 selection:text-gray-500 prose">
+  <div class="big">Headline</div>
+  <p class="mt-4 px-6 text-3xl text-gray-500">lorem <a href="#">ipsum dolor</a> sit amet consectetur adipisicing elit.
+    At culpa, placeat delectus ut quidem iste minima numquam quisquam autem nemo dolorum consectetur adipisci blanditiis
+    distinctio possimus perferendis animi, eum voluptatum.</p>
 </div>
+
+<style type="text/tailwindcss">
+  .big {
+  @apply text-[80px] mb-0 font-extrabold text-salmon;
+}
+</style>

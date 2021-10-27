@@ -1,5 +1,3 @@
 {
-  "extensions": ["codespaces-contrib.codeswing"],
-  "postCreateCommand": "npm install",
-  "postStartCommand": "npm start"
+  "extensions": ["codespaces-contrib.codeswing"]
 }
